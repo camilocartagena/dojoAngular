@@ -16,6 +16,8 @@ export class AppComponent {
   "June", "July", "August", "September",
   "October", "November", "December"];
 
+  isavailable = true;   //variable is set to true
+
   onSave(){  
     console.log("Save operation is clicked!");  
   }  
