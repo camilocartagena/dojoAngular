@@ -11,6 +11,11 @@ export class AppComponent {
   urlImage = 'https://cdn.worldvectorlogo.com/logos/angular-3.svg'
   fullName: string = "Camilo";  
 
+  // declared array of months.
+  months = ["January", "Feburary", "March", "April", "May", 
+  "June", "July", "August", "September",
+  "October", "November", "December"];
+
   onSave(){  
     console.log("Save operation is clicked!");  
   }  
